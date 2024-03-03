@@ -6,7 +6,6 @@ const exp = require('express');
 const os = require('os');
 const si = require('systeminformation');
 const s = exp();
-const auth = require('./confing.json');
 const keep_alive = require('./keep_alive.js');
 
 
