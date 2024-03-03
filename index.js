@@ -7,6 +7,7 @@ const os = require('os');
 const si = require('systeminformation');
 const s = exp();
 const auth = require('./confing.json');
+const keep_alive = require('./kepp_alive.js');
 
 
 const client = new Client({
