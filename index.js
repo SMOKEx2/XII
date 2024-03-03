@@ -29,7 +29,7 @@ client.on('ready', async () => {
   const totalRam = mem.total;
   const usedRam = mem.used;
   const cpuSpeed = cpuInfo.speed;
-  const cpuText = (typeof cpuSpeed === 'number') ? `${cpuSpeed.toFixed(5)} GHz` : 'N/A';
+  const cpuText = (typeof cpuSpeed === 'number') ? `${cpuSpeed.toFixed(1)} GHz` : '4.2';
   const ramText = (typeof totalRam === 'number' && typeof usedRam === 'number') ? `RAM: ${((usedRam / totalRam) * 100).toFixed(1)}%` : 'N/A';
 
 const num = parseFloat((Math.random() * 0.2 + 0.1 + Number.EPSILON).toFixed(1));
