@@ -93,7 +93,7 @@ setInterval(() => {
       }, 1 * 500);
       console.log(`${client.user.username} Is Ready!`);
       });
-  client.login(auth.token);
+  client.login(process.env.TOKEN);
 
   si.currentLoad().then(data => {
       // handle success
